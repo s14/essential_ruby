@@ -3,7 +3,7 @@
 # Compare and contrast this to print_heading in 6_methods.rb
 def print_heading(content)
   puts "=" * content.length
-  puts "#{content}"
+  puts content
   puts "=" * content.length
 end
 
